@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+/*
+Even AND Odd Till N
+By:-AYS
+*/
+
+	int main(){
+	int n,i;
+	
+	printf("EVEN AND ODD TILL N\n");
+	printf("**************************************************************************************************************\n");
+	
+	printf("Enter(n):-\n");
+	scanf("%d",&n);
+	
+		for(i=0;i<=n;i++){
+			if(n%2==0){
+				printf("Even Numbers are:-%d",n);
+			}
+			else{
+				printf("Odd Numbers are:-%d",n);
+			}
+		}
+	
+	return 0;
+	}
